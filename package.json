@@ -1,7 +1,7 @@
 {
   "name": "meta",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
