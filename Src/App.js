@@ -61,6 +61,7 @@ function App() {
       )}
       <Routes>
         {/* Redirect root to default language */}
+
         <Route
           path="/"
           element={<Navigate to={`/${currentLanguage}`} replace />}
